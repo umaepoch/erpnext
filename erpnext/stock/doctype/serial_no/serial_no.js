@@ -158,7 +158,7 @@ function fetch_file_url_build_sheet(attached_to_name) {
 }
 
 function fetch_file_link(name,attached_to_name){
-    console.log("entered into get_merge_file_url function");
+    //console.log("entered into get_merge_file_url function");
     var file_url_list = "";
     frappe.call({
         method: "nhance.api.get_merge_file_url",
